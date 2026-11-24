@@ -1,128 +1,14 @@
 {
- "clones": {
-  "2026-11-04": {
-   "count": 1,
-   "uniques": 1
-  },
-  "2026-11-05": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-06": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-07": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-08": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-09": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-10": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-11": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-12": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-13": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-14": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-15": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-16": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-17": {
-   "count": 0,
-   "uniques": 0
-  }
- },
- "days_tracked": 14,
- "first_day": "2026-11-04",
- "last_day": "2026-11-17",
+ "source": "cloudflare-rum",
+ "updated": "",
+ "days_tracked": 0,
+ "first_day": null,
+ "last_day": null,
+ "total_views": 0,
+ "total_uniques_sum_daily": 0,
+ "views": {},
  "paths": [],
  "referrers": [],
- "repo": "Breeze88-hub/Breeze88-hub.github.io",
- "total_uniques_sum_daily": 0,
- "total_views": 0,
- "updated": "2026-11-24T21:04:13Z",
- "views": {
-  "2026-11-04": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-05": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-06": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-07": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-08": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-09": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-10": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-11": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-12": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-13": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-14": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-15": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-16": {
-   "count": 0,
-   "uniques": 0
-  },
-  "2026-11-17": {
-   "count": 0,
-   "uniques": 0
-  }
- },
- "window_days": 14
+ "countries": [],
+ "devices": []
 }
