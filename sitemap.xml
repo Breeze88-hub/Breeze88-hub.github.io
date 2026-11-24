@@ -56,15 +56,6 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/gmail-ends-send-as-third-party-2027/</loc>
-    
-    <lastmod>2026-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://breeze88-hub.github.io/krystal-uk-domain-buy-one-get-one/</loc>
     
     <lastmod>2026-11-24</lastmod>
@@ -92,7 +83,25 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/data/traffic.json</loc>
+    <loc>https://breeze88-hub.github.io/gmail-ends-send-as-third-party-2027/</loc>
+    
+    <lastmod>2026-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/about/index.html</loc>
+    
+    <lastmod>2026-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/categories/index.html</loc>
     
     <lastmod>2026-11-24</lastmod>
     
@@ -119,16 +128,7 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/categories/index.html</loc>
-    
-    <lastmod>2026-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/about/index.html</loc>
+    <loc>https://breeze88-hub.github.io/data/traffic.json</loc>
     
     <lastmod>2026-11-24</lastmod>
     
@@ -279,48 +279,6 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/tags/gmail/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/tags/%E9%82%AE%E4%BB%B6/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/tags/smtp/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/tags/%E8%BF%81%E7%A7%BB/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/tags/gname/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/tags/eu-cc/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://breeze88-hub.github.io/tags/krystal/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -370,6 +328,20 @@
   </url>
   
   <url>
+    <loc>https://breeze88-hub.github.io/tags/gname/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/eu-cc/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://breeze88-hub.github.io/tags/uppcoder/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -385,6 +357,34 @@
   
   <url>
     <loc>https://breeze88-hub.github.io/tags/express/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/gmail/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/%E9%82%AE%E4%BB%B6/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/smtp/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/%E8%BF%81%E7%A7%BB/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
