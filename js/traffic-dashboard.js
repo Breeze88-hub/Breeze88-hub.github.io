@@ -88,7 +88,7 @@
 
     var html = ['<style>' + STYLE + '</style>'];
 
-    html.push('<p style="opacity:.7;margin:0 0 4px">本站访问数据 —— 数据源 GitHub Traffic，每日自动快照，无埋点脚本、无第三方统计、不记录访客 IP。</p>');
+    html.push('<p style="opacity:.7;margin:0 0 4px">本站访问数据。统计服务正在接入，接入完成后这里会显示每日浏览量、独立访客与热门文章。</p>');
 
     html.push('<div class="td-cards">'
       + card('累计浏览量', num(d.total_views), 'PV')
@@ -136,8 +136,8 @@
     }
 
     html.push('<div class="td-note">'
-      + 'GitHub 的 Traffic 接口只保留最近 14 天，超出窗口的数据会永久消失；因此本页用每日快照的方式把历史攒在仓库里（<code>source/_data/traffic.json</code>），只增不减。'
-      + (hasData ? '' : '<br>目前还没有产生可见浏览量 —— 数据从 ' + (d.first_day || '开始记录') + ' 起累积，访客进来后次日即可看到曲线。')
+      + '看板框架已就位（数据文件 + 每日快照 + 前端图表），只等统计数据源接入。'
+      + (hasData ? '' : '<br>当前文件里还没有有效访问记录。')
       + '</div>');
 
     root.innerHTML = html.join('');
