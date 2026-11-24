@@ -1,3 +1,3 @@
-var posts=["cloudflare-free-plan-setup-guide/","cucloud-free-ai-desktop/","eu-org-free-domain-guide/","free-cn-domain-aiming/","gate-card-no-fee-8-percent-cashback/","krystal-uk-domain-buy-one-get-one/","serv00-free-hosting-2026/","uppcoder-free-express-postgresql/","gmail-ends-send-as-third-party-2027/","gname-eu-cc-free-registration/"];function toRandomPost(){
+var posts=["eu-org-free-domain-guide/","cloudflare-free-plan-setup-guide/","free-cn-domain-aiming/","gate-card-no-fee-8-percent-cashback/","gmail-ends-send-as-third-party-2027/","gname-eu-cc-free-registration/","cucloud-free-ai-desktop/","krystal-uk-domain-buy-one-get-one/","serv00-free-hosting-2026/","uppcoder-free-express-postgresql/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
