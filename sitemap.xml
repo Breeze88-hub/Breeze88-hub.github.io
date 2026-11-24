@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://breeze88-hub.github.io/eu-org-free-domain-guide/</loc>
+    
+    <lastmod>2026-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://breeze88-hub.github.io/free-cn-domain-aiming/</loc>
     
     <lastmod>2026-11-24</lastmod>
@@ -65,15 +74,6 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/krystal-uk-domain-buy-one-get-one/</loc>
-    
-    <lastmod>2026-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://breeze88-hub.github.io/uppcoder-free-express-postgresql/</loc>
     
     <lastmod>2026-11-24</lastmod>
@@ -83,7 +83,16 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/eu-org-free-domain-guide/</loc>
+    <loc>https://breeze88-hub.github.io/krystal-uk-domain-buy-one-get-one/</loc>
+    
+    <lastmod>2026-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/about/index.html</loc>
     
     <lastmod>2026-11-24</lastmod>
     
@@ -102,15 +111,6 @@
   
   <url>
     <loc>https://breeze88-hub.github.io/tags/index.html</loc>
-    
-    <lastmod>2026-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/about/index.html</loc>
     
     <lastmod>2026-11-24</lastmod>
     
@@ -192,6 +192,20 @@
   
   <url>
     <loc>https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/eu-org/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/nameserver/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -317,27 +331,6 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/tags/krystal/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/tags/uk%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://breeze88-hub.github.io/tags/%E4%B9%B0%E4%B8%80%E9%80%81%E4%B8%80/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://breeze88-hub.github.io/tags/uppcoder/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -359,14 +352,21 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/tags/eu-org/</loc>
+    <loc>https://breeze88-hub.github.io/tags/krystal/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/tags/nameserver/</loc>
+    <loc>https://breeze88-hub.github.io/tags/uk%E5%9F%9F%E5%90%8D/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/%E4%B9%B0%E4%B8%80%E9%80%81%E4%B8%80/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
