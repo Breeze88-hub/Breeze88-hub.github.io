@@ -1,0 +1,3 @@
+var posts=["cloudflare-free-plan-setup-guide/","cucloud-free-ai-desktop/","free-cn-domain-aiming/","eu-org-free-domain-guide/","gmail-ends-send-as-third-party-2027/","gname-eu-cc-free-registration/","krystal-uk-domain-buy-one-get-one/","gate-card-no-fee-8-percent-cashback/","uppcoder-free-express-postgresql/","serv00-free-hosting-2026/"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
