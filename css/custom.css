@@ -1,0 +1,24 @@
+/* ===== 站点自定义样式（不覆盖主题，只补主题漏掉的）===== */
+
+/* 首页卡片封面
+   主题给 img.post_bg 设了 width/height:100%，但没给 object-fit。
+   卡片封面框是「宽 70% × 高 200px」，而封面图是 1200×676（16:9），
+   不加 object-fit 会被横向拉成 2.8:1，封面上的中文标题会明显压扁。 */
+.recent-post-item .post_cover img.post_bg {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* 移动端卡片封面（宽 100% × 高 200px）同样处理 */
+@media screen and (max-width: 768px) {
+  .recent-post-item .post_cover img.post_bg {
+    object-fit: cover;
+  }
+}
+
+/* 文章页右侧目录/侧栏里的封面缩略图，避免同类拉伸 */
+.post_cover img,
+.recent-post-item img {
+  object-fit: cover;
+  object-position: center;
+}
