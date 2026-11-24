@@ -1,14 +1,17 @@
 name: traffic-snapshot
 
-# GitHub 的 /traffic 接口只保留最近 14 天，窗口一滚旧数据就永久消失。
-# 本 workflow 每天把 14 天窗口并进 data/traffic.json（按日期取较大值，只增不减），
-# 提交回本仓库 → Pages 自动重新发布 → 看板页 /stats/ 读到新数据。
+# 数据源：Cloudflare Web Analytics (RUM) —— GitHub Traffic 统计的是仓库页面访问，
+# 跟 GitHub Pages 站点的访客无关（实测恒为 0），已弃用。
 #
-# 脚本内联，不依赖源码仓；data/traffic.json 由本 workflow 独占维护，
-# 本地 Hexo 构建不用覆盖它（tools/deploy.sh 已 exclude）。
+# 每天拉一次 CF GraphQL，按日期并进 data/traffic.json（取较大值，防同一天被重复统计），
+# 提交回本仓库 → Pages 重发 → 看板页 /stats/ 读到新数据。
+#
+# 需要的仓库 secrets：
+#   CF_API_TOKEN   —— Cloudflare API Token，权限 Account > Account Analytics > Read
+#   CF_ACCOUNT_TAG —— 账户 ID（32 位 hex）。不给则脚本用 GET /accounts 自动取第一个
 on:
   schedule:
-    - cron: '17 1 * * *'   # UTC 01:17，避开整点高峰
+    - cron: '17 1 * * *'   # UTC 01:17
   workflow_dispatch:
 
 permissions:
@@ -31,98 +34,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: 拉取 traffic 并累积历史
+      - name: 拉取 Cloudflare RUM 数据并累积历史
         env:
-          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN || secrets.GITHUB_TOKEN }}
-          TRAFFIC_REPO: ${{ github.repository }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_TAG: ${{ secrets.CF_ACCOUNT_TAG }}
         run: |
-          python3 - <<'PY'
-          import json, os, sys, urllib.error, urllib.request
-          from datetime import datetime, timezone
-
-          repo  = os.environ["TRAFFIC_REPO"]
-          token = os.environ["GH_TOKEN"]
-          API   = "https://api.github.com"
-          DATA  = "data/traffic.json"
-
-          def call(path):
-              req = urllib.request.Request(API + path, method="GET")
-              req.add_header("Authorization", "Bearer " + token)
-              req.add_header("Accept", "application/vnd.github+json")
-              req.add_header("X-GitHub-Api-Version", "2022-11-28")
-              req.add_header("User-Agent", "breeze88-traffic")
-              try:
-                  with urllib.request.urlopen(req, timeout=30) as r:
-                      return json.loads(r.read() or b"{}")
-              except urllib.error.HTTPError as e:
-                  print("! %s -> HTTP %s %s" % (path, e.code, e.read()[:160]), file=sys.stderr)
-                  return {}
-              except Exception as e:
-                  print("! %s -> %s" % (path, e), file=sys.stderr)
-                  return {}
-
-          views   = call("/repos/%s/traffic/views" % repo)
-          clones  = call("/repos/%s/traffic/clones" % repo)
-          refs    = call("/repos/%s/traffic/popular/referrers" % repo)
-          paths   = call("/repos/%s/traffic/popular/paths" % repo)
-
-          # 两个接口全 403 就是 token 权限不够，直接失败，别把空数据写进历史
-          if not views and not clones and not refs:
-              print("traffic 全部拉取失败：检查 TRAFFIC_TOKEN 是否有 repo scope", file=sys.stderr)
-              sys.exit(1)
-
-          try:
-              with open(DATA, encoding="utf-8") as fh:
-                  old = json.load(fh)
-          except (OSError, ValueError):
-              old = {}
-
-          def merge(hist, items):
-              added = 0
-              for it in items or []:
-                  day = (it.get("timestamp") or "")[:10]
-                  if not day:
-                      continue
-                  cur = hist.get(day)
-                  if cur is None:
-                      hist[day] = {"count": it.get("count", 0), "uniques": it.get("uniques", 0)}
-                      added += 1
-                  else:
-                      cur["count"]   = max(cur.get("count", 0),   it.get("count", 0))
-                      cur["uniques"] = max(cur.get("uniques", 0), it.get("uniques", 0))
-              return added
-
-          hv = old.get("views")  or {}
-          hc = old.get("clones") or {}
-          n1 = merge(hv, views.get("views"))
-          n2 = merge(hc, clones.get("clones"))
-
-          days = sorted(hv)
-          out = {
-              "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-              "repo": repo,
-              "window_days": len(views.get("views") or []),
-              "days_tracked": len(days),
-              "first_day": days[0] if days else None,
-              "last_day": days[-1] if days else None,
-              "total_views": sum(v["count"] for v in hv.values()),
-              "total_uniques_sum_daily": sum(v["uniques"] for v in hv.values()),
-              "views": hv,
-              "clones": hc,
-              "referrers": [{"referrer": r.get("referrer") or "(直接访问)",
-                             "count": r.get("count", 0), "uniques": r.get("uniques", 0)}
-                            for r in (refs if isinstance(refs, list) else [])][:15],
-              "paths": [{"path": p.get("path", ""), "title": p.get("title", ""),
-                         "count": p.get("count", 0), "uniques": p.get("uniques", 0)}
-                        for p in (paths if isinstance(paths, list) else [])][:15],
-          }
-
-          os.makedirs(os.path.dirname(DATA), exist_ok=True)
-          with open(DATA, "w", encoding="utf-8") as fh:
-              json.dump(out, fh, ensure_ascii=False, indent=1, sort_keys=True)
-          print("新增 %d 天 views / %d 天 clones；历史 %d 天，累计 PV %d"
-                % (n1, n2, len(days), out["total_views"]))
-          PY
+          ARGS="--days 30"
+          if [ -n "$CF_ACCOUNT_TAG" ]; then
+            ARGS="$ARGS --account $CF_ACCOUNT_TAG"
+          fi
+          python3 tools/fetch-cf-analytics.py $ARGS
 
       - name: 有变化才提交
         run: |
