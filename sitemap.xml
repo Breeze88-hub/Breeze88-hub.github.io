@@ -92,7 +92,25 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/about/index.html</loc>
+    <loc>https://breeze88-hub.github.io/data/traffic.json</loc>
+    
+    <lastmod>2026-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/stats/index.html</loc>
+    
+    <lastmod>2026-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://breeze88-hub.github.io/tags/index.html</loc>
     
     <lastmod>2026-11-24</lastmod>
     
@@ -110,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://breeze88-hub.github.io/tags/index.html</loc>
+    <loc>https://breeze88-hub.github.io/about/index.html</loc>
     
     <lastmod>2026-11-24</lastmod>
     
