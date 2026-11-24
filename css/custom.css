@@ -22,3 +22,38 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* ===== 站名字体：Dancing Script 700（手写连笔）===== */
+/* 只用拉丁子集 woff2（25KB），中文靠 unicode-range 自动回落到系统字体，
+   避免中文标题也被换成手写体导致可读性下降。 */
+@font-face {
+  font-family: 'Breeze Script';
+  src: url('/fonts/dancing-script-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2018-201D, U+2026, U+00B7;
+}
+
+/* 导航栏左上角站名 */
+#blog_name .title,
+#site-name .title,
+#site-name {
+  font-family: 'Breeze Script', 'Dancing Script', cursive;
+  /* 手写体 x-height 偏低，视觉上比同字号的正文字体小一圈，略微放大补偿 */
+  font-size: 1.18em;
+  line-height: 1.1;
+}
+
+/* 首页顶部横幅的站点名（peoplecanvas 关闭时才会出现） */
+.banners-title-big {
+  font-family: 'Breeze Script', 'Dancing Script', cursive;
+}
+
+/* 页脚 / 版权里的站点名 */
+footer .copyright,
+#footer-wrap .copyright,
+.post-copyright .post-copyright__author,
+.copyright-author {
+  font-family: inherit;
+}
