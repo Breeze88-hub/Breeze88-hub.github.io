@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Breeze88</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://breeze88-hub.github.io/</id>
+  <link href="https://breeze88-hub.github.io/" rel="alternate"/>
+  <link href="https://breeze88-hub.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Breeze88</rights>
+  <subtitle>免费资源与自建服务实测</subtitle>
+  <title>Breeze88</title>
+  <updated>2026-11-24T15:12:41.000Z</updated>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="支付与卡" scheme="https://breeze88-hub.github.io/categories/%E6%94%AF%E4%BB%98%E4%B8%8E%E5%8D%A1/"/>
+    <category term="虚拟卡" scheme="https://breeze88-hub.github.io/tags/%E8%99%9A%E6%8B%9F%E5%8D%A1/"/>
+    <category term="gate" scheme="https://breeze88-hub.github.io/tags/gate/"/>
+    <category term="返现" scheme="https://breeze88-hub.github.io/tags/%E8%BF%94%E7%8E%B0/"/>
+    <category term="支付" scheme="https://breeze88-hub.github.io/tags/%E6%94%AF%E4%BB%98/"/>
+    <content>
+      <![CDATA[<p>正在找一张 U 卡订阅各类服务？Gate Card 的成本可以先算清楚：按 <a target="_blank" rel="noopener" href="https://www.gate.com/blog/gate-card-benefits-up-to-8-percent-cashback-zero-annual-fee-digital-asset-spending">Gate 官方的卡片说明</a>，申请不收开卡费，持有期间也没有年费和月费。</p><p><strong>注意这个坑：到手实际要 60 USDT</strong></p><p>虽然官方说免开卡费，但申请到手实际需要 60 USDT：其中 50 USDT 是卡片保证金，销卡可退；另外 10 USDT 开卡后在余额里。算成本的时候按 60 USDT 算，别只看“免开卡费”就以为零成本。好消息是那 50 USDT 保证金不是白交的，销卡的时候可以退回来。</p><p><strong>开卡要多久？</strong></p><p>完成身份验证后，虚拟卡大约 3 到 5 分钟就能批下来，不用等实体卡寄到就能先用起来。</p><p><strong>返现怎么算？</strong></p><p>消费返现最高 8%，具体返现比例按消费类型和活动规则走，用之前先到官方卡片页看清当期的返现细则。</p><p><strong>能绑哪些支付？</strong></p><p>这张卡支持绑定微信、Google Pay 和 Apple Pay（iPhone Pay），日常扫码、线上订阅都能用得上。</p><p><strong>适合谁？</strong></p><p>大陆二代身份证可直接过 KYC，不用护照，适合想用稳定币虚拟卡订阅 AI、云服务等，又不想折腾护照认证的人。开卡前先确认自己的 Gate 账号已完成身份验证，再去找卡片申请入口。</p><p><strong>我的邀请链接</strong></p><p>想申卡的可以用我的邀请链接申请：<a target="_blank" rel="noopener" href="https://app.bxjddjt.com/card/redirect?key=invite&invite_code=TZAYSKXCFQ">点击申请 Gate Card</a>（邀请码：TZAYSKXCFQ）。</p><p>官方说明见 <a target="_blank" rel="noopener" href="https://www.gate.com/blog/gate-card-benefits-up-to-8-percent-cashback-zero-annual-fee-digital-asset-spending">Gate Card 官方介绍</a>。</p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/gate-card-no-fee-8-percent-cashback/</id>
+    <link href="https://breeze88-hub.github.io/gate-card-no-fee-8-percent-cashback/"/>
+    <published>2026-11-21T01:46:12.000Z</published>
+    <summary>正在找一张 U 卡订阅各类服务？Gate Card 的成本可以先算清楚：按 Gate 官方的卡片说明，申请不收开卡费，持有期间也没有年费和月费。 注意这个坑：到手实际要 60 USDT 虽然官方说免开卡费，但申请到手实际需要 60 USDT：其中 50 USDT 是卡片保证金，销卡可退；另外 10</summary>
+    <title>Gate Card 免开卡费、无年费，返现最高 8%</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费主机" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    <category term="免费主机" scheme="https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    <category term="uppcoder" scheme="https://breeze88-hub.github.io/tags/uppcoder/"/>
+    <category term="postgresql" scheme="https://breeze88-hub.github.io/tags/postgresql/"/>
+    <category term="express" scheme="https://breeze88-hub.github.io/tags/express/"/>
+    <content>
+      <![CDATA[<p>想把 Express 应用免费部署上线、还带一个真正的 PostgreSQL 数据库？Uppcoder 的免费 Spark 档可以做到：不用绑卡，也没有使用期限，适合做小项目、练手和演示。</p><p><strong>免费档给什么？</strong></p><ul><li>一个应用加一个数据库：内存 2GB、磁盘 2GB，数据库是 PostgreSQL 17；</li><li>浏览器里直接写代码的编辑器和终端，和应用跑在同一个容器里，改完保存就自动重启；</li><li>上线第一分钟就有自己的 HTTPS 地址；</li><li>支持从自己的编辑器用 SSH 连上去（VS Code Remote - SSH、Cursor、JetBrains Gateway、Zed 都行）；</li><li>每天夜间备份到独立服务器，免费档也包含。</li></ul><p><strong>怎么开通？</strong></p><ol><li>到 <a target="_blank" rel="noopener" href="https://portal.uppcoder.com/">portal.uppcoder.com</a> 注册账号；</li><li>依次点 Billing、Available Plans、Spark、Start free（先验证邮箱：点 Send me the link，再点邮件里的链接）；</li><li>想一键上手，打开 <a target="_blank" rel="noopener" href="https://github.com/Uppcoder/express-postgresql-starter">github.com/Uppcoder/express-postgresql-starter</a>，点 Deploy to Uppcoder，给应用起个名字，确认部署即可。平台会自动克隆仓库、跑 npm install 并启动应用。</li></ol><p><strong>数据库怎么连？</strong></p><p>应用通过 <code>DATABASE_URL</code> 拿到完整连接串，另外还有 <code>POSTGRES_HOST</code>、<code>POSTGRES_PORT</code>、<code>POSTGRES_DB</code>、<code>POSTGRES_USER</code>、<code>POSTGRES_PASSWORD</code> 等分项环境变量，密码不用写进代码里。示例项目用 pg 包读 <code>DATABASE_URL</code>，运行在 Node 22 上。</p><p><strong>几个注意事项：</strong></p><ul><li>应用默认是私有的，只有登录后才能访问；想公开访问，在 stack 页面把 Private 切换成 Public，立即生效，不用重启；</li><li><code>/health</code> 这个路径被平台自己占用做健康检查，自己的状态接口请换个名字，比如示例里的 <code>/status</code>；</li><li>自带项目也可以：新建空白 stack，贴上自己仓库的 https 地址（私有仓库要给 access token），平台会按顺序找 index.js、package.json 的 main、server.js、app.js、src/index.js，找不到就跑 npm start，记得监听 <code>process.env.PORT</code>；</li><li>官方承诺免费档没有使用期限，如果以后要改或要结束，会提前至少 60 天发邮件通知。</li></ul><p>原文教程见 <a target="_blank" rel="noopener" href="https://medium.com/@johnuppcoder/deploy-an-express-app-with-postgresql-for-free-uppcoder-50ef59b13a32">Medium：Deploy an Express App with PostgreSQL for Free — Uppcoder</a>。</p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/uppcoder-free-express-postgresql/</id>
+    <link href="https://breeze88-hub.github.io/uppcoder-free-express-postgresql/"/>
+    <published>2026-11-19T23:31:22.000Z</published>
+    <summary>Uppcoder 免费 Spark 档：1 个应用 + PostgreSQL 17 数据库，2GB 内存/磁盘，不绑卡，无使用期限。</summary>
+    <title>Uppcoder 免费部署 Express 应用，配 PostgreSQL 数据库</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="dns" scheme="https://breeze88-hub.github.io/tags/dns/"/>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="eu.org" scheme="https://breeze88-hub.github.io/tags/eu-org/"/>
+    <category term="nameserver" scheme="https://breeze88-hub.github.io/tags/nameserver/"/>
+    <content>
+      <![CDATA[<h2 id="申请通过后-0-元"><a href="#申请通过后-0-元" title="申请通过后 0 元"></a>申请通过后 0 元</h2><p>eu.org 免费域名申请通过后 0 元，可接入 Cloudflare，用免费 DNS 和 SSL 就能跑起来。</p><h2 id="审核要等"><a href="#审核要等" title="审核要等"></a>审核要等</h2><p>审核通常要 2 天到 2 周，不是最快的免费域名，但胜在稳定、没有套路，适合不急着用的个人项目长期持有。</p><h2 id="适用人群"><a href="#适用人群" title="适用人群"></a>适用人群</h2><p>想零成本拿一个能长期用的域名、愿意等审核的个人站长。<br>来源参考：<a target="_blank" rel="noopener" href="https://www.kufanyun.com/ask/929654.html">https://www.kufanyun.com/ask/929654.html</a></p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/eu-org-free-domain-guide/</id>
+    <link href="https://breeze88-hub.github.io/eu-org-free-domain-guide/"/>
+    <published>2026-11-19T18:37:18.000Z</published>
+    <summary>申请通过后 0 元eu.org 免费域名申请通过后 0 元，可接入 Cloudflare，用免费 DNS 和 SSL 就能跑起来。 审核要等审核通常要 2 天到 2 周，不是最快的免费域名，但胜在稳定、没有套路，适合不急着用的个人项目长期持有。 适用人群想零成本拿一个能长期用的域名、愿意等审核的个人</summary>
+    <title>eu.org 免费域名要先申请等审核</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费额度服务" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6%E6%9C%8D%E5%8A%A1/"/>
+    <category term="gmail" scheme="https://breeze88-hub.github.io/tags/gmail/"/>
+    <category term="邮件" scheme="https://breeze88-hub.github.io/tags/%E9%82%AE%E4%BB%B6/"/>
+    <category term="smtp" scheme="https://breeze88-hub.github.io/tags/smtp/"/>
+    <category term="迁移" scheme="https://breeze88-hub.github.io/tags/%E8%BF%81%E7%A7%BB/"/>
+    <content>
+      <![CDATA[<h2 id="发信路要换了"><a href="#发信路要换了" title="发信路要换了"></a>发信路要换了</h2><p>Google 写明，2027 年 1 月起 Gmail 将停用第三方地址的“代发”功能，网页端和手机端都不再支持。</p><h2 id="替代办法"><a href="#替代办法" title="替代办法"></a>替代办法</h2><p>替代办法是把第三方邮箱直接加进 Gmail App 作为独立账号，而不是继续用代发方式发信。</p><h2 id="提前准备"><a href="#提前准备" title="提前准备"></a>提前准备</h2><p>现在用域名邮箱通过 Gmail 代发的用户，建议提前迁移配置，别等到 2027 年 1 月才发现发不出信。<br>来源参考：<a target="_blank" rel="noopener" href="https://support.google.com/mail/answer/17101213">https://support.google.com/mail/answer/17101213</a></p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/gmail-ends-send-as-third-party-2027/</id>
+    <link href="https://breeze88-hub.github.io/gmail-ends-send-as-third-party-2027/"/>
+    <published>2026-11-19T18:36:21.000Z</published>
+    <summary>发信路要换了Google 写明，2027 年 1 月起 Gmail 将停用第三方地址的“代发”功能，网页端和手机端都不再支持。 替代办法替代办法是把第三方邮箱直接加进 Gmail App 作为独立账号，而不是继续用代发方式发信。 提前准备现在用域名邮箱通过 Gmail 代发的用户，建议提前迁移配置，</summary>
+    <title>Gmail 2027 年 1 月起停用第三方地址代发</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="krystal" scheme="https://breeze88-hub.github.io/tags/krystal/"/>
+    <category term="uk域名" scheme="https://breeze88-hub.github.io/tags/uk%E5%9F%9F%E5%90%8D/"/>
+    <category term="买一送一" scheme="https://breeze88-hub.github.io/tags/%E4%B9%B0%E4%B8%80%E9%80%81%E4%B8%80/"/>
+    <content>
+      <![CDATA[<h2 id="买一送一"><a href="#买一送一" title="买一送一"></a>买一送一</h2><p>Krystal 的买一送一里，两个 .uk、.co.uk、.org.uk 或 .me.uk 域名一起结账，第二个首年免费。</p><h2 id="后天截止"><a href="#后天截止" title="后天截止"></a>后天截止</h2><p>活动在北京时间 <strong>11 月 21 日 07:59</strong> 结束，之后恢复标准价。想注册 .uk 后缀的要抓紧，只剩不到两天。</p><h2 id="适用人群"><a href="#适用人群" title="适用人群"></a>适用人群</h2><p>做英国业务、想拿 .uk 后缀做品牌或邮箱域名的用户。<br>来源参考：<a target="_blank" rel="noopener" href="https://krystal.io/legal/terms-and-conditions/buy-one-get-one-free-uk-domains">https://krystal.io/legal/terms-and-conditions/buy-one-get-one-free-uk-domains</a></p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/krystal-uk-domain-buy-one-get-one/</id>
+    <link href="https://breeze88-hub.github.io/krystal-uk-domain-buy-one-get-one/"/>
+    <published>2026-11-19T18:35:59.000Z</published>
+    <summary>买一送一Krystal 的买一送一里，两个 .uk、.co.uk、.org.uk 或 .me.uk 域名一起结账，第二个首年免费。 后天截止活动在北京时间 11 月 21 日 07:59 结束，之后恢复标准价。想注册 .uk 后缀的要抓紧，只剩不到两天。 适用人群做英国业务、想拿 .uk 后缀做品牌</summary>
+    <title>Krystal .uk 域名买一送一</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费额度服务" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6%E6%9C%8D%E5%8A%A1/"/>
+    <category term="cloudflare" scheme="https://breeze88-hub.github.io/tags/cloudflare/"/>
+    <category term="dns" scheme="https://breeze88-hub.github.io/tags/dns/"/>
+    <category term="ssl" scheme="https://breeze88-hub.github.io/tags/ssl/"/>
+    <category term="cdn" scheme="https://breeze88-hub.github.io/tags/cdn/"/>
+    <category term="建站" scheme="https://breeze88-hub.github.io/tags/%E5%BB%BA%E7%AB%99/"/>
+    <content>
+      <![CDATA[<h2 id="免费档够用了"><a href="#免费档够用了" title="免费档够用了"></a>免费档够用了</h2><p>11 月 5 日的这篇教程写明，Cloudflare 免费套餐是 $0/月，含通用 SSL、不限量 DDoS 防护和全球 CDN，个人小站完全够用。</p><h2 id="最容易翻车的一步"><a href="#最容易翻车的一步" title="最容易翻车的一步"></a>最容易翻车的一步</h2><p>最容易翻车的是加密模式，Cloudflare 建议选 Full 或 Full (strict)，选错会在访客打开时报 526 或陷入重定向循环。配好后记得用浏览器无痕模式验证一次。</p><h2 id="适用人群"><a href="#适用人群" title="适用人群"></a>适用人群</h2><p>刚把域名 NS 接到 Cloudflare、第一次配 DNS 和 SSL 的新手，跟着教程一步步走就能生效。<br>来源参考：<a target="_blank" rel="noopener" href="https://www.liezhe.com/cloudflare-shiyong-jiaocheng/">https://www.liezhe.com/cloudflare-shiyong-jiaocheng/</a></p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/cloudflare-free-plan-setup-guide/</id>
+    <link href="https://breeze88-hub.github.io/cloudflare-free-plan-setup-guide/"/>
+    <published>2026-11-19T18:35:23.000Z</published>
+    <summary>免费档够用了11 月 5 日的这篇教程写明，Cloudflare 免费套餐是 $0/月，含通用 SSL、不限量 DDoS 防护和全球 CDN，个人小站完全够用。 最容易翻车的一步最容易翻车的是加密模式，Cloudflare 建议选 Full 或 Full (strict)，选错会在访客打开</summary>
+    <title>Cloudflare免费套餐：DNS、SSL、缓存一步步配到生效</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费主机" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    <category term="免费主机" scheme="https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    <category term="serv00" scheme="https://breeze88-hub.github.io/tags/serv00/"/>
+    <category term="ssh" scheme="https://breeze88-hub.github.io/tags/ssh/"/>
+    <category term="vps" scheme="https://breeze88-hub.github.io/tags/vps/"/>
+    <content>
+      <![CDATA[<h2 id="又开放注册了"><a href="#又开放注册了" title="又开放注册了"></a>又开放注册了</h2><p>Serv00 免费主机 11 月 11 日又开放了注册。免费主机放号一向手慢无，看到就尽快注册。</p><h2 id="配置不含糊"><a href="#配置不含糊" title="配置不含糊"></a>配置不含糊</h2><p>3GB 空间、完整 SSH，不要钱也不绑卡，拿来练手、搭小站、跑定时任务都够用。</p><h2 id="90-天登录一次"><a href="#90-天登录一次" title="90 天登录一次"></a>90 天登录一次</h2><p>账号每 90 天至少登录一次，不然会被回收。注册后记得设个提醒，定期登录保号。<br>来源参考：<a target="_blank" rel="noopener" href="https://www.yeyhome.com/2026/11/11/308.html">https://www.yeyhome.com/2026/11/11/308.html</a></p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/serv00-free-hosting-2026/</id>
+    <link href="https://breeze88-hub.github.io/serv00-free-hosting-2026/"/>
+    <published>2026-11-19T18:33:32.000Z</published>
+    <summary>又开放注册了Serv00 免费主机 11 月 11 日又开放了注册。免费主机放号一向手慢无，看到就尽快注册。 配置不含糊3GB 空间、完整 SSH，不要钱也不绑卡，拿来练手、搭小站、跑定时任务都够用。 90 天登录一次账号每 90 天至少登录一次，不然会被回收。注册后记得设个提醒，定期登录保号。来源</summary>
+    <title>Serv00 免费主机又放号了：3GB 空间、完整 SSH、不要钱不绑卡</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费额度服务" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6%E6%9C%8D%E5%8A%A1/"/>
+    <category term="cucloud" scheme="https://breeze88-hub.github.io/tags/cucloud/"/>
+    <category term="云电脑" scheme="https://breeze88-hub.github.io/tags/%E4%BA%91%E7%94%B5%E8%84%91/"/>
+    <category term="ai" scheme="https://breeze88-hub.github.io/tags/ai/"/>
+    <category term="免费额度" scheme="https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6/"/>
+    <content>
+      <![CDATA[<h2 id="免费领一个月"><a href="#免费领一个月" title="免费领一个月"></a>免费领一个月</h2><p>联通云新客户可 0 元开通一个月 4 核 8G AI 云桌面，含 80GB 系统盘，活动到 <strong>12 月 31 日</strong>结束。</p><h2 id="附送-Token-Plan-Lite"><a href="#附送-Token-Plan-Lite" title="附送 Token Plan Lite"></a>附送 Token Plan Lite</h2><p>开通时选“OpenClaw 虾壳版”镜像，还会附送 Token Plan Lite，到手就能跑 AI 工具。</p><h2 id="适用人群"><a href="#适用人群" title="适用人群"></a>适用人群</h2><p>想白嫖一台云电脑体验 AI 云桌面、跑轻量任务的新用户，注意是新客户专享。<br>来源参考：<a target="_blank" rel="noopener" href="https://www.aipromonow.com/promos/cucloud-ai-desktop-free-month-token-plan-lite">https://www.aipromonow.com/promos/cucloud-ai-desktop-free-month-token-plan-lite</a></p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/cucloud-free-ai-desktop/</id>
+    <link href="https://breeze88-hub.github.io/cucloud-free-ai-desktop/"/>
+    <published>2026-11-19T18:32:49.000Z</published>
+    <summary>免费领一个月联通云新客户可 0 元开通一个月 4 核 8G AI 云桌面，含 80GB 系统盘，活动到 12 月 31 日结束。 附送 Token Plan Lite开通时选“OpenClaw 虾壳版”镜像，还会附送 Token Plan Lite，到手就能跑 AI 工具。 适用人群想白嫖一台云电脑</summary>
+    <title>联通云新客户免费领一个月 AI 云桌面</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="cn域名" scheme="https://breeze88-hub.github.io/tags/cn%E5%9F%9F%E5%90%8D/"/>
+    <category term="域名注册" scheme="https://breeze88-hub.github.io/tags/%E5%9F%9F%E5%90%8D%E6%B3%A8%E5%86%8C/"/>
+    <category term="实名认证" scheme="https://breeze88-hub.github.io/tags/%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81/"/>
+    <content>
+      <![CDATA[<p><strong>免费领两个中文后缀</strong></p><p>爱名网 11 月 5 日联合 CNNIC 推出的活动里，一个 .CN 加一个 .中国域名可以免费领，不用花钱就能拿到国内主流后缀。</p><p><strong>续费也免费</strong></p><p>完成备案后，第二年续费也免费，等于长期零成本持有。注意前提是完成备案，没备案的域名无法正常解析使用。</p><p><strong>适用人群</strong></p><p>做国内业务、中文品牌，或者想给个人项目配一个中文域名的用户。</p><p><strong>实测更新（2026-11-20）：这对域名我决定不领了</strong></p><ul><li>领到的域名默认冻结，不能转出，也不能自己续费；</li><li>第二年免费续费的前提是完成 ICP 备案，没备案就得按正常价续费或者放弃，而备案需要国内服务器；</li><li>活动首期到 2026 年 12 月 31 日，入口 22.cn/cnnic，零成本领的路径是做一遍建站体验，其他路径（注册商标、版权，买 SSL、云主机、云服务器）都要花钱。</li></ul><p>来源参考：<a target="_blank" rel="noopener" href="https://22.co.ltd/site/article/5791133287041546">爱名网现联合CNNIC推出福利活动：免费领取一个.CN和一个.中国域名</a></p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/free-cn-domain-aiming/</id>
+    <link href="https://breeze88-hub.github.io/free-cn-domain-aiming/"/>
+    <published>2026-11-19T18:31:34.000Z</published>
+    <summary>免费领两个中文后缀 爱名网 11 月 5 日联合 CNNIC 推出的活动里，一个 .CN 加一个 .中国域名可以免费领，不用花钱就能拿到国内主流后缀。 续费也免费 完成备案后，第二年续费也免费，等于长期零成本持有。注意前提是完成备案，没备案的域名无法正常解析使用。 适用人群 做国内业务、中文品牌，或</summary>
+    <title>免费领一个 .CN 和一个 .中国域名</title>
+    <updated>2026-11-24T15:12:41.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Breeze88</name>
+    </author>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/categories/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="免费域名" scheme="https://breeze88-hub.github.io/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    <category term="域名注册" scheme="https://breeze88-hub.github.io/tags/%E5%9F%9F%E5%90%8D%E6%B3%A8%E5%86%8C/"/>
+    <category term="gname" scheme="https://breeze88-hub.github.io/tags/gname/"/>
+    <category term="eu.cc" scheme="https://breeze88-hub.github.io/tags/eu-cc/"/>
+    <content>
+      <![CDATA[<h2 id="结论先行"><a href="#结论先行" title="结论先行"></a>结论先行</h2><p>2026 年 11 月 19 日实测，breeze88.eu.cc 在 GNAME 用全额抵扣券 0 元注册成功，1 年，订单 1.88 美元，优惠券抵扣 1.88 美元，实付 0 美元。注册时间 2026-11-19，到期日 2027-11-19，状态正常，NS 已换到 Cloudflare 并显示已生效。</p><h2 id="为什么是-eu-cc"><a href="#为什么是-eu-cc" title="为什么是 eu.cc"></a>为什么是 eu.cc</h2><p>以前的免费顶级域名 Freenom（.tk、.ml、.ga、.cf、.gq）2023 年停了新注册，之后退出了域名业务。现在还能用的真正免费渠道主要是免费二级域名：GNAME 的 *.eu.cc、KataBump 的 *.kdns.fr、eu.org 的 *.eu.org。这篇只讲已经走通的 eu.cc。</p><h2 id="免费规则"><a href="#免费规则" title="免费规则"></a>免费规则</h2><p>GNAME 官方免费页写明，所有注册用户都有 3 个 eu.cc 免费名额。一次可以领 3 张全额抵扣注册券，这次领了 3 张，用了 1 张，还剩 2 张。券领后 30 天内有效，只能本账号用，不能转让，结算时系统自动优先抵扣。注意：券只适用于非溢价的 eu.cc 域名，溢价域名不能 0 元。正常价注册和续费都是 12 美元/年，免费续费要在到期前 90 天内，在免费注册活动页面提交，域名列表和自动续费里办不了。</p><h2 id="选名踩坑"><a href="#选名踩坑" title="选名踩坑"></a>选名踩坑</h2><p>先试了三个名字，nexus.eu.cc 未注册但是溢价，首年 130 美元；aurora.eu.cc 已经被注册了；breeze.eu.cc 未注册但是溢价，首年 10 美元。都不免费。后来试了 breezemoon.eu.cc 和 breeze88.eu.cc，两个都未注册、不是溢价，促销价 1.88 美元/首年，原价 12 美元，最终选了 breeze88.eu.cc。</p><h2 id="注册流程"><a href="#注册流程" title="注册流程"></a>注册流程</h2><ol><li><p>邮箱登录 GNAME，过滑块验证，登录验证码会发到邮箱，注意查垃圾邮件，这次几次验证码都在垃圾邮件里；</p></li><li><p>在免费活动页领 3 张全额抵扣券；</p></li><li><p>把 breeze88.eu.cc 加购物车，结算核对是 1.88 美元减 1.88 美元，实付 0 美元再提交；</p></li><li><p>按 ICANN 要求先创建域名联系人模板，姓名、邮箱、国家、省市、地址、邮编、电话都要填真实信息，模板建好后不能改，只能删，邮箱验证后才生效。</p></li></ol><h2 id="换-NS-到-Cloudflare"><a href="#换-NS-到-Cloudflare" title="换 NS 到 Cloudflare"></a>换 NS 到 Cloudflare</h2><p>注册后 GNAME 默认 NS 是 a.share-dns.com、b.share-dns.net，没有任何解析记录，域名还不能访问。Cloudflare 分配的 NS 是 savanna.ns.cloudflare.com、trey.ns.cloudflare.com。在 GNAME 把 NS 改成这两个，提交后显示已生效。注意：改 NS 时 GNAME 会触发操作保护，只用邮箱验证不够，必须再绑定一种验证方式，这次是绑定了 MFA 验证器（邮箱验证 + MFA 验证）才改成功。</p><p><img src="https://breeze88.eu.cc/uploads/editor/2026/11/57bc2a6e-a1e7-467d-88b1-8231fc631d94.webp"></p><h2 id="续费提醒"><a href="#续费提醒" title="续费提醒"></a>续费提醒</h2><p>券是注册券，不是续费券，剩下的 2 张 30 天不用就作废，不能留到明年续费。第二年想继续 0 元，要在到期前 90 天内（这次是 2027-08-21 前后）在免费注册活动页面提交免费续费，错过就是正常价 12 美元/年。</p><h2 id="最后提醒"><a href="#最后提醒" title="最后提醒"></a>最后提醒</h2><p>价格和活动以 GNAME 官方页面为准，本文是 2026-11-19 的一次实测记录，不同时间、不同名字价格可能不一样，溢价域名、已注册域名都不能 0 元。</p><hr><p>更多免费资源与数字商品，欢迎访问 <a target="_blank" rel="noopener" href="https://breeze88.eu.cc/">Breeze88</a>——卡密、授权、充值，付款即交付。</p>]]>
+    </content>
+    <id>https://breeze88-hub.github.io/gname-eu-cc-free-registration/</id>
+    <link href="https://breeze88-hub.github.io/gname-eu-cc-free-registration/"/>
+    <published>2026-11-18T20:30:51.000Z</published>
+    <summary>2026 年 11 月 19 日实测，GNAME 的 eu.cc 用全额抵扣券 0 元注册 1 年，从选名踩坑、领券结算到换 NS 到 Cloudflare 的完整过程。</summary>
+    <title>GNAME eu.cc 免费注册实测：0 元拿下 breeze88.eu.cc 全过程</title>
+    <updated>2026-11-24T15:13:00.000Z</updated>
+  </entry>
+</feed>
